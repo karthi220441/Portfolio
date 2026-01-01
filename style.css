@@ -212,4 +212,7 @@ section h2 {
     footer p {
         font-size: 13px;
     }
+    footer{
+        background-color: #5e646b;
+    }
 }
