@@ -1,0 +1,162 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1f2933;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #1f2933;
+}
+
+/* About */
+#about p {
+    font-size: 16px;
+    max-width: 800px;
+}
+
+/* Projects */
+#projects ul {
+    list-style: none;
+}
+
+#projects li {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+#projects a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* Contact */
+#contact p {
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+#contact a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Certificates */
+#certificates ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 15px;
+}
+
+#certificates li {
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.cert-meta {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin: 6px 0;
+}
+
+#certificates a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#certificates a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section {
+        padding: 25px 20px;
+    }
+}
+<footer>
+    <p>© 2025 Karthikeyan. All rights reserved.</p>
+    <div class="footer-links">
+        <a href="https://github.com/karthi220441" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/karthi09?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
+        <a href="mailto:karthikeyan.092005.20@gmail.com">Email</a>
+    </div>
+</footer>
