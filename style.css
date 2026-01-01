@@ -14,8 +14,8 @@ body {
 
 /* Header */
 header {
-    background-color: #1f2933;
-    color: #fff;
+    background-color: #5e646b;
+    color: #ffffff;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
@@ -152,6 +152,72 @@ section h2 {
         padding: 25px 20px;
     }
 }
+/* Better mobile responsiveness */
+@media (max-width: 600px) {
+
+    /* Header */
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    /* Sections */
+    section {
+        padding: 20px 15px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+
+    /* Projects */
+    #projects li {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    /* Contact */
+    #contact p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    /* Certificates */
+    #certificates ul {
+        grid-template-columns: 1fr;
+    }
+
+    #certificates li {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 20px 15px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+}
+
 <footer>
     <p>© 2025 Karthikeyan. All rights reserved.</p>
     <div class="footer-links">
